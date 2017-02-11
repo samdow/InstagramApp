@@ -1,7 +1,10 @@
 <% @posts.each do |x| %>
+	<center>
 	<div class = "white">
-		<%= image_tag x.image.url(:medium) %>
-		<br>
+		<div class= "image">
+			<%= image_tag x.image.url(:medium) %>
+		</div>
 		<%= x.description %>
 	</div>
+	</center>
 <% end %>
