@@ -1,5 +1,8 @@
 # samdow's Instagram
 
+<b>NOTE:</b> This branch was created to keep working on this app while maintaining the work done before Friday in a separate branch.
+Everything on the master was done before the due date and everything here was done after.
+
 This is an Instagram-like app where users can sign up and signed in users can post pictures to a feed 
 that shows up when the app is opened. It was created from 
 [this tutorial](https://www.youtube.com/watch?v=MpFO4Zr0EPE)
@@ -55,9 +58,6 @@ If you click cancel, you will be put back on whatever page you were on before. I
 <img src = "https://raw.githubusercontent.com/samdow/InstagramApp/master/images/Sign%20Out%20Successful.png" width = "700">
 
 Currently, these are all the features that are offered for samdow's Instagram!
-
-This branch was created to keep working on this app while maintaining the work done before Friday in a separate branch.
-Everything on the master was done before the due date and everything here was done after.
 
 ### Features in Progress
 Comments
