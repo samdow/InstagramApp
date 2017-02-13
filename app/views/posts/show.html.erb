@@ -1,3 +1,14 @@
 <%= image_tag(@post.image.url(:medium)) %>
 <br>
 <%= @post.description %>
+
+<h3>Comments</h3>
+
+<%= form_for [@story, Comment.new] do |f| %>
+<%= f.text_area :body, placeholder: "Add a comment" %><br/>
+<%= f.submit "Add Comment" %>
+<% end %>
+
+<ul>
+  <%= render(partial: 'comments/comment', collection: @story.comments) %>
+</ul>

@@ -30,6 +30,12 @@ ActiveRecord::Schema.define(version: 20170210050415) do
     t.datetime "image_updated_at"
   end
 
+  create_table "sqlite_stat1", id: false, force: :cascade do |t|
+    t. "tbl"
+    t. "idx"
+    t. "stat"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
